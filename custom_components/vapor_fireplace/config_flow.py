@@ -1,4 +1,4 @@
-"""Config flow for Water Vapour Bluetooth Fireplace integration."""
+"""Config flow for Vapor Fireplace integration."""
 import logging
 import aiohttp
 import voluptuous as vol
@@ -44,7 +44,7 @@ async def validate_input(hass: core.HomeAssistant, data):
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """Handle a config flow for Water Vapour Bluetooth Fireplace."""
+    """Handle a config flow for Vapor Fireplace."""
 
     VERSION = 1
     CONNECTION_CLASS = config_entries.CONN_CLASS_LOCAL_POLL

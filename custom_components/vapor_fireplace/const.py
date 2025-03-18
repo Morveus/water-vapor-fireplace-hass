@@ -1,7 +1,7 @@
-"""Constants for the Water Vapour Bluetooth Fireplace integration."""
+"""Constants for the Vapor Fireplace integration."""
 
-DOMAIN = "water_vapour_bluetooth_fireplace"
-DEFAULT_NAME = "Water Vapour Bluetooth Fireplace"
+DOMAIN = "vapor_fireplace"
+DEFAULT_NAME = "Vapor Fireplace"
 
 # Scan interval for updating values (in seconds)
 SCAN_INTERVAL = 30

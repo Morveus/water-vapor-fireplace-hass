@@ -1,4 +1,4 @@
-"""The Water Vapour Bluetooth Fireplace integration."""
+"""Vapor Fireplace integration."""
 import asyncio
 import logging
 from datetime import timedelta
@@ -24,7 +24,7 @@ PLATFORMS = ["light"]
 
 
 async def async_setup(hass: HomeAssistant, config: dict):
-    """Set up the Water Vapour Bluetooth Fireplace component."""
+    """Set up the Vapor Fireplace component."""
     hass.data.setdefault(DOMAIN, {})
     
     # Set up services
@@ -34,7 +34,7 @@ async def async_setup(hass: HomeAssistant, config: dict):
 
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
-    """Set up Water Vapour Bluetooth Fireplace from a config entry."""
+    """Set up Vapor Fireplace from a config entry."""
     host = entry.data["host"]
     port = entry.data["port"]
     

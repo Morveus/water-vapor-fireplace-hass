@@ -1,4 +1,4 @@
-"""Light platform for Water Vapour Bluetooth Fireplace integration."""
+"""Light platform for Vapor Fireplace integration."""
 import asyncio
 import logging
 
@@ -40,14 +40,14 @@ FLAME_EFFECTS = {
 
 
 async def async_setup_entry(hass, entry, async_add_entities):
-    """Set up the Water Vapour Bluetooth Fireplace light based on config entry."""
+    """Set up the Vapor Fireplace light based on config entry."""
     coordinator = hass.data[DOMAIN][entry.entry_id]
     
     async_add_entities([FireplaceLight(coordinator, entry)], True)
 
 
 class FireplaceLight(CoordinatorEntity, LightEntity):
-    """Representation of a Water Vapour Bluetooth Fireplace."""
+    """Representation of a Vapor Fireplace."""
 
     def __init__(self, coordinator, entry):
         """Initialize the fireplace."""
@@ -73,8 +73,8 @@ class FireplaceLight(CoordinatorEntity, LightEntity):
         return {
             "identifiers": {(DOMAIN, self.coordinator.server_address)},
             "name": self._name,
-            "manufacturer": "Water Vapour Bluetooth Fireplace",
-            "model": "Bluetooth Fireplace",
+            "manufacturer": "Vapor Fireplace",
+            "model": "Vapor Fireplace",
         }
 
     @property

@@ -3,7 +3,7 @@ set_flame_height:
   fields:
     entity_id:
       description: Name of the fireplace entity.
-      example: "light.water_vapour_bluetooth_fireplace"
+      example: "light.vapor_fireplace"
     flame_height:
       description: Flame height (1-7).
       example: 3
@@ -13,7 +13,7 @@ set_flame_speed:
   fields:
     entity_id:
       description: Name of the fireplace entity.
-      example: "light.water_vapour_bluetooth_fireplace"
+      example: "light.vapor_fireplace"
     flame_speed:
       description: Flame speed (1-7).
       example: 3 

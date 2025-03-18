@@ -1,6 +1,6 @@
 {
-  "domain": "water_vapour_bluetooth_fireplace",
-  "name": "Water Vapour Bluetooth Fireplace",
+  "domain": "vapor_fireplace",
+  "name": "Vapor Fireplace",
   "config_flow": true,
   "documentation": "https://github.com/Morveus/3D-Fireplace-Hass",
   "issue_tracker": "https://github.com/Morveus/3D-Fireplace-Hass/issues",

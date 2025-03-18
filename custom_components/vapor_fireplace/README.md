@@ -1,4 +1,4 @@
-# Water Vapour Bluetooth Fireplace
+# Water Vapor Bluetooth Fireplace
 
 This Home Assistant integration allows you to control your Water Vapour Bluetooth Fireplace through Home Assistant.
 
@@ -12,19 +12,19 @@ This Home Assistant integration allows you to control your Water Vapour Bluetoot
    - Click the three dots in the top right corner
    - Select "Custom repositories"
    - Add the URL to this repository and select "Integration" as the category
-3. Click "Install" after searching for "Water Vapour Bluetooth Fireplace" in HACS.
+3. Click "Install" after searching for "Vapor Bluetooth Fireplace" in HACS.
 4. Restart Home Assistant.
 
 ### Manual Installation
 
 1. Download this repository.
-2. Copy the `custom_components/water_vapour_bluetooth_fireplace` directory to your Home Assistant's `custom_components` directory.
+2. Copy the `custom_components/vapor_fireplace` directory to your Home Assistant's `custom_components` directory.
 3. Restart Home Assistant.
 
 ## Configuration
 
 1. Go to Configuration > Integrations in the Home Assistant UI.
-2. Click "Add Integration" and search for "Water Vapour Bluetooth Fireplace".
+2. Click "Add Integration" and search for "Water Vapor Bluetooth Fireplace".
 3. Follow the configuration flow and enter:
    - The IP address of your fireplace server
    - The port number of your fireplace server
