@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connecter à la cheminée à vapeur Bluetooth",
+        "description": "Entrez l'hôte et le port de votre serveur de cheminée.",
+        "data": {
+          "host": "Hôte",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossible de se connecter au serveur de cheminée. Veuillez vérifier l'hôte et le port.",
+      "unknown": "Une erreur inattendue est survenue."
+    },
+    "abort": {
+      "already_configured": "Cette cheminée est déjà configurée."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configurer la cheminée",
+        "data": {
+          "host": "Hôte",
+          "port": "Port"
+        }
+      }
+    }
+  }
+}
