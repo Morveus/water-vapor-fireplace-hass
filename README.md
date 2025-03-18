@@ -1,7 +1,20 @@
-# Water Vapor Bluetooth Fireplace
+# Water Vapor Bluetooth Fireplace integration for Home Assistant
 
-This Home Assistant integration allows you to control your Water Vapour Bluetooth Fireplace through Home Assistant.
+This Home Assistant integration allows you to control your Water Vapour Bluetooth Fireplace compatible with the "3D Fire" app, through Home Assistant
 
+![image](https://github.com/user-attachments/assets/d401a434-d64a-4ba6-b05e-39c7d9918587)
+
+## Context and notes
+I bought a Bluetooth-controlled water vapor fireplace, and was not surprised to discover that the only way to remote-control it was to install a chinese app ("3D Fire") that's extremely impractical and ugly on top of not being a good thing for home automation. So here we are.
+
+This repo allows you to send Bluetooth commands to the fireplace from Home Assistant, eliminating the need for any third-party app.
+
+⚠️ My fireplace is "natural color only", I couldn't test the RGB update commands so I didn't bother implementing anything. Feel free to update server.py and the integration if you have an RGB one!
+
+## Prerequisites
+- Home Assistant instance
+- Raspberry Pi with a Bluetooth chip
+- Water vapor fireplace with Bluetooth remote control (the ones that are supposed to be controlled from the "3D Fire" app
 
 ## Installation
 ### Relay server
